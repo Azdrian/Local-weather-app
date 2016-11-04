@@ -1,1 +1,97 @@
+  /**************************
+Basic style
+**************************/
 
+body {
+  background-color: #D32F2F;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.main-heading {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Baloo Tamma', cursive;
+  margin-top: 0;
+  text-align: center;
+}
+
+
+/****************************************
+   weather content
+****************************************/
+
+.weather-content {
+  text-align: center;
+}
+
+.city,
+.country,
+.region {
+  display: inline-block;
+}
+
+.wi {
+  color: white;
+  font-size: 60px;
+}
+
+.degrees {
+  cursor: pointer;
+}
+
+.location,
+.weather-info {
+  color: white;
+  font-family: 'Slabo 27px', serif;
+}
+
+
+/****************************************
+   Footer
+****************************************/
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+}
+
+
+/****************************************
+  media queries
+****************************************/
+
+@media (min-width:600) {
+  .main-heading {
+    font-size: 2em;
+  }
+}
+
+@media (min-width:768) {
+  .main-heading {
+    font-size: 2.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  .main-heading {
+    font-size: 3em;
+  }
+  @media (min-width: 1024px) {
+    .main-heading {
+      font-size: 3.2em;
+    }
+  }
